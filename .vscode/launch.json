@@ -1,0 +1,727 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Flutter: Attach to Device",
+            "type": "dart",
+            "request": "attach"
+        },
+        {
+            "name": "Dart",
+            "type": "dart",
+            "request": "launch",
+            "program": "bin/main.dart"
+        },
+        {
+            "name": "example_1_hello_world",
+            "type": "dart",
+            "request": "launch",
+            "program": "Chapter01\\1_operators\\example_1_hello_world.dart"
+        },
+        {
+            "name": "2_types",
+            "cwd": "Chapter01\\2_types",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "3_control_flow_functions",
+            "cwd": "Chapter01\\3_control_flow_functions",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "example_17_futures_async",
+            "cwd": "Chapter02\\example_17_futures_async",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "example_18_unit_tests",
+            "cwd": "Chapter02\\example_18_unit_tests",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hello_flutter",
+            "cwd": "Chapter03\\hello_flutter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hello_flutter (profile mode)",
+            "cwd": "Chapter03\\hello_flutter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hello_flutter (release mode)",
+            "cwd": "Chapter03\\hello_flutter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "hands_on_layouts",
+            "cwd": "Chapter04\\hands_on_layouts",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hands_on_layouts (profile mode)",
+            "cwd": "Chapter04\\hands_on_layouts",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hands_on_layouts (release mode)",
+            "cwd": "Chapter04\\hands_on_layouts",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "hands_on_layouts_widgets_refactoring",
+            "cwd": "Chapter04\\hands_on_layouts_widgets_refactoring",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hands_on_layouts_widgets_refactoring (profile mode)",
+            "cwd": "Chapter04\\hands_on_layouts_widgets_refactoring",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hands_on_layouts_widgets_refactoring (release mode)",
+            "cwd": "Chapter04\\hands_on_layouts_widgets_refactoring",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "gestures",
+            "cwd": "Chapter05\\gestures",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "gestures (profile mode)",
+            "cwd": "Chapter05\\gestures",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "gestures (release mode)",
+            "cwd": "Chapter05\\gestures",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "hands_on_input",
+            "cwd": "Chapter05\\hands_on_input",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hands_on_input (profile mode)",
+            "cwd": "Chapter05\\hands_on_input",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hands_on_input (release mode)",
+            "cwd": "Chapter05\\hands_on_input",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "input",
+            "cwd": "Chapter05\\input",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "input (profile mode)",
+            "cwd": "Chapter05\\input",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "input (release mode)",
+            "cwd": "Chapter05\\input",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "cupertino_themes",
+            "cwd": "Chapter06\\cupertino_themes",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "cupertino_themes (profile mode)",
+            "cwd": "Chapter06\\cupertino_themes",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "cupertino_themes (release mode)",
+            "cwd": "Chapter06\\cupertino_themes",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "hands_on_cupertino_theme",
+            "cwd": "Chapter06\\hands_on_cupertino_theme",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hands_on_cupertino_theme (profile mode)",
+            "cwd": "Chapter06\\hands_on_cupertino_theme",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hands_on_cupertino_theme (release mode)",
+            "cwd": "Chapter06\\hands_on_cupertino_theme",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "hands_on_fonts",
+            "cwd": "Chapter06\\hands_on_fonts",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hands_on_fonts (profile mode)",
+            "cwd": "Chapter06\\hands_on_fonts",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hands_on_fonts (release mode)",
+            "cwd": "Chapter06\\hands_on_fonts",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "hands_on_mediaquery",
+            "cwd": "Chapter06\\hands_on_mediaquery",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hands_on_mediaquery (profile mode)",
+            "cwd": "Chapter06\\hands_on_mediaquery",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hands_on_mediaquery (release mode)",
+            "cwd": "Chapter06\\hands_on_mediaquery",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "hands_on_themes",
+            "cwd": "Chapter06\\hands_on_themes",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hands_on_themes (profile mode)",
+            "cwd": "Chapter06\\hands_on_themes",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hands_on_themes (release mode)",
+            "cwd": "Chapter06\\hands_on_themes",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "layout_builder",
+            "cwd": "Chapter06\\layout_builder",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "layout_builder (profile mode)",
+            "cwd": "Chapter06\\layout_builder",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "layout_builder (release mode)",
+            "cwd": "Chapter06\\layout_builder",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "themes",
+            "cwd": "Chapter06\\themes",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "themes (profile mode)",
+            "cwd": "Chapter06\\themes",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "themes (release mode)",
+            "cwd": "Chapter06\\themes",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "hands_on_hero",
+            "cwd": "Chapter07\\hands_on_hero",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hands_on_hero (profile mode)",
+            "cwd": "Chapter07\\hands_on_hero",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hands_on_hero (release mode)",
+            "cwd": "Chapter07\\hands_on_hero",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "navigation",
+            "cwd": "Chapter07\\navigation",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "navigation (profile mode)",
+            "cwd": "Chapter07\\navigation",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "navigation (release mode)",
+            "cwd": "Chapter07\\navigation",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "hands_on_firebase",
+            "cwd": "Chapter08\\hands_on_firebase",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hands_on_firebase (profile mode)",
+            "cwd": "Chapter08\\hands_on_firebase",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hands_on_firebase (release mode)",
+            "cwd": "Chapter08\\hands_on_firebase",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "hands_on_platform_version",
+            "cwd": "Chapter09\\hands_on_platform_version",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hands_on_platform_version (profile mode)",
+            "cwd": "Chapter09\\hands_on_platform_version",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hands_on_platform_version (release mode)",
+            "cwd": "Chapter09\\hands_on_platform_version",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "hands_on_contact_picker",
+            "cwd": "Chapter10\\hands_on_contact_picker",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hands_on_contact_picker (profile mode)",
+            "cwd": "Chapter10\\hands_on_contact_picker",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hands_on_contact_picker (release mode)",
+            "cwd": "Chapter10\\hands_on_contact_picker",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "hands_on_image_picker",
+            "cwd": "Chapter10\\hands_on_image_picker",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hands_on_image_picker (profile mode)",
+            "cwd": "Chapter10\\hands_on_image_picker",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hands_on_image_picker (release mode)",
+            "cwd": "Chapter10\\hands_on_image_picker",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "hands_on_url_launcher",
+            "cwd": "Chapter10\\hands_on_url_launcher",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hands_on_url_launcher (profile mode)",
+            "cwd": "Chapter10\\hands_on_url_launcher",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hands_on_url_launcher (release mode)",
+            "cwd": "Chapter10\\hands_on_url_launcher",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "hands_on_maps",
+            "cwd": "Chapter11\\hands_on_maps",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hands_on_maps (profile mode)",
+            "cwd": "Chapter11\\hands_on_maps",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hands_on_maps (release mode)",
+            "cwd": "Chapter11\\hands_on_maps",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "hands_on_platform_views",
+            "cwd": "Chapter11\\hands_on_platform_views",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hands_on_platform_views (profile mode)",
+            "cwd": "Chapter11\\hands_on_platform_views",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hands_on_platform_views (release mode)",
+            "cwd": "Chapter11\\hands_on_platform_views",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "hands_on_deployment",
+            "cwd": "Chapter12\\hands_on_deployment",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hands_on_deployment (profile mode)",
+            "cwd": "Chapter12\\hands_on_deployment",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hands_on_deployment (release mode)",
+            "cwd": "Chapter12\\hands_on_deployment",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "hands_on_tests",
+            "cwd": "Chapter12\\hands_on_tests",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hands_on_tests (profile mode)",
+            "cwd": "Chapter12\\hands_on_tests",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hands_on_tests (release mode)",
+            "cwd": "Chapter12\\hands_on_tests",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "hands_on_background_process",
+            "cwd": "Chapter13\\hands_on_background_process",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hands_on_background_process (profile mode)",
+            "cwd": "Chapter13\\hands_on_background_process",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hands_on_background_process (release mode)",
+            "cwd": "Chapter13\\hands_on_background_process",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "hands_on_compute",
+            "cwd": "Chapter13\\hands_on_compute",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hands_on_compute (profile mode)",
+            "cwd": "Chapter13\\hands_on_compute",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hands_on_compute (release mode)",
+            "cwd": "Chapter13\\hands_on_compute",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "hands_on_localizations",
+            "cwd": "Chapter13\\hands_on_localizations",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hands_on_localizations (profile mode)",
+            "cwd": "Chapter13\\hands_on_localizations",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hands_on_localizations (release mode)",
+            "cwd": "Chapter13\\hands_on_localizations",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "hands_on_custom_painter",
+            "cwd": "Chapter14\\hands_on_custom_painter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hands_on_custom_painter (profile mode)",
+            "cwd": "Chapter14\\hands_on_custom_painter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hands_on_custom_painter (release mode)",
+            "cwd": "Chapter14\\hands_on_custom_painter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "hands_on_transform",
+            "cwd": "Chapter14\\hands_on_transform",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hands_on_transform (profile mode)",
+            "cwd": "Chapter14\\hands_on_transform",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hands_on_transform (release mode)",
+            "cwd": "Chapter14\\hands_on_transform",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "hands_on_animations",
+            "cwd": "Chapter15\\hands_on_animations",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hands_on_animations (profile mode)",
+            "cwd": "Chapter15\\hands_on_animations",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hands_on_animations (release mode)",
+            "cwd": "Chapter15\\hands_on_animations",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "adding_dependencies",
+            "cwd": "Chapter02\\example_16_packages\\adding_dependencies",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "simple_package_structure",
+            "cwd": "Chapter02\\example_16_packages\\simple_package_structure",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "example",
+            "cwd": "Chapter09\\hands_on_platform_version\\example",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "example (profile mode)",
+            "cwd": "Chapter09\\hands_on_platform_version\\example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "example (release mode)",
+            "cwd": "Chapter09\\hands_on_platform_version\\example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "example",
+            "cwd": "Chapter11\\hands_on_platform_views\\example",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "example (profile mode)",
+            "cwd": "Chapter11\\hands_on_platform_views\\example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "example (release mode)",
+            "cwd": "Chapter11\\hands_on_platform_views\\example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "example",
+            "cwd": "Chapter13\\hands_on_background_process\\example",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "example (profile mode)",
+            "cwd": "Chapter13\\hands_on_background_process\\example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "example (release mode)",
+            "cwd": "Chapter13\\hands_on_background_process\\example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "package",
+            "cwd": "Chapter02\\example_15_libraries\\example_1_importing_variants\\package",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}
