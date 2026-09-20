@@ -3,7 +3,7 @@ main() {
 
   try {
     a.doSomething();
-  } on NoSuchMethodError catch (e) {
+  } on NoSuchMethodError {
     print("'a' variable does not have the doSomething() method:");
     rethrow; // we give up handling and rethrow
   }
