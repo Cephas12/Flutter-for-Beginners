@@ -12,9 +12,5 @@ main() {
   }
 
   // This works as it evaluates the expression and isItABug is not null
-  if (isItABug != null) {
-    print("It’s a bug.");
-  } else {
-    print("It’s not a bug. It’s an undocumented feature!");
-  }
+  print("It’s a bug.");
 }

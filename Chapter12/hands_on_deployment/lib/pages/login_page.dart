@@ -29,7 +29,7 @@ class LoginPageState extends State<LoginPage> {
   List<StepState> _stepsState = [
     StepState.editing,
     StepState.indexed,
-    StepState.indexed
+    StepState.indexed,
   ];
   bool _showProgress = false;
   String _displayName = '';
@@ -42,9 +42,7 @@ class LoginPageState extends State<LoginPage> {
     FirebaseAuth.instance.currentUser().then((user) {
       if (user != null) {
         Navigator.of(context).pushReplacement(
-          MaterialPageRoute(
-            builder: (context) => FavorsPage(),
-          ),
+          MaterialPageRoute(builder: (context) => FavorsPage()),
         );
       }
     });
@@ -63,9 +61,7 @@ class LoginPageState extends State<LoginPage> {
               children: <Widget>[
                 Text(
                   "Login",
-                  style: Theme.of(context)
-                      .textTheme
-                      .display3
+                  style: Theme.of(context).textTheme.display3
                       .copyWith(color: Theme.of(context).primaryColor),
                 ),
               ],
@@ -109,17 +105,13 @@ class LoginPageState extends State<LoginPage> {
                     children: <Widget>[
                       InkWell(
                         child: CircleAvatar(
-                          backgroundImage: _imageFile != null
-                              ? FileImage(_imageFile)
-                              : AssetImage('assets/default_avatar.png'),
+                          backgroundImage: FileImage(_imageFile),
                         ),
                         onTap: () {
                           _importImage();
                         },
                       ),
-                      Container(
-                        height: 32.0,
-                      ),
+                      Container(height: 32.0),
                       TextField(
                         decoration: InputDecoration(hintText: "Display name"),
                         onChanged: (value) {
@@ -150,8 +142,11 @@ class LoginPageState extends State<LoginPage> {
     );
   }
 
-  Widget _stepControlsBuilder(BuildContext context,
-      {VoidCallback onStepContinue, VoidCallback onStepCancel}) {
+  Widget _stepControlsBuilder(
+    BuildContext context, {
+    VoidCallback onStepContinue,
+    VoidCallback onStepCancel,
+  }) {
     if (_showProgress) {
       return Padding(
         padding: const EdgeInsets.all(8.0),
@@ -164,10 +159,7 @@ class LoginPageState extends State<LoginPage> {
     return Row(
       mainAxisAlignment: MainAxisAlignment.end,
       children: <Widget>[
-        FlatButton(
-          onPressed: onStepContinue,
-          child: Text("CONTINUE"),
-        ),
+        FlatButton(onPressed: onStepContinue, child: Text("CONTINUE")),
       ],
     );
   }
@@ -213,11 +205,12 @@ class LoginPageState extends State<LoginPage> {
       _showProgress = true;
     });
 
-    await FirebaseAuth.instance
-        .signInWithCredential(PhoneAuthProvider.getCredential(
-      verificationId: _verificationId,
-      smsCode: _smsCode,
-    ));
+    await FirebaseAuth.instance.signInWithCredential(
+      PhoneAuthProvider.getCredential(
+        verificationId: _verificationId,
+        smsCode: _smsCode,
+      ),
+    );
 
     FirebaseAuth.instance.currentUser().then((user) {
       if (user != null) {
@@ -260,17 +253,12 @@ class LoginPageState extends State<LoginPage> {
     final updateInfo = UserUpdateInfo();
     updateInfo.displayName = _displayName;
 
-    if (_imageFile != null) {
-      updateInfo.photoUrl = await uploadPicture(user.uid);
-    }
+    updateInfo.photoUrl = await uploadPicture(user.uid);
 
     await user.updateProfile(updateInfo);
 
-    Navigator.of(context).pushReplacement(
-      MaterialPageRoute(
-        builder: (context) => FavorsPage(),
-      ),
-    );
+    Navigator.of(context)
+        .pushReplacement(MaterialPageRoute(builder: (context) => FavorsPage()));
   }
 
   void goToProfileStep() {
@@ -295,8 +283,10 @@ class LoginPageState extends State<LoginPage> {
         .child('profiles')
         .child('profile_$userUid');
 
-    StorageUploadTask uploadTask =
-        ref.putFile(_imageFile, StorageMetadata(contentType: 'image/png'));
+    StorageUploadTask uploadTask = ref.putFile(
+      _imageFile,
+      StorageMetadata(contentType: 'image/png'),
+    );
 
     StorageTaskSnapshot lastSnapshot = await uploadTask.onComplete;
 
